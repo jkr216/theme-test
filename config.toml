@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "http://swordmaker-porcupine-37257.netlify.com//"
 relativeurls = true
 languageCode = "en-us"
 title = "Icarus"
