@@ -64,7 +64,7 @@ theme = "hugo-icarus-theme"
 
 # Enter a link for the follow button on the left
 [params.profile]
-    follow_button = "https://twiiter.com/jkregenstein"
+    follow_button = "https://twitter.com/jkregenstein"
 
 
 [social]
