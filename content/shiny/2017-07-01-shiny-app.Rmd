@@ -1,0 +1,15 @@
+---
+title: Shiny app
+author: Jonathan Regenstein
+date: '2017-07-01'
+slug: shiny-app
+categories:
+  - R
+tags:
+  - Shiny
+---
+
+```{r, echo = FALSE}
+knitr::include_app("https://jkr216.shinyapps.io/Sharpe-Ratio-Flex/", 
+  height = "600px")
+```

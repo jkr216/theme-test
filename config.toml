@@ -51,6 +51,11 @@ theme = "hugo-icarus-theme"
     before = true
     label  = "Home"
     link   = "/"
+    
+[[params.menu]]
+    before = true
+    label  = "Shiny"
+    link   = "shiny/"
 
 [[params.menu]]
     before = false
