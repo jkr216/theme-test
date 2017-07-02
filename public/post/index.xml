@@ -21,14 +21,5 @@
       <description>In a previous post, we imported oil data from Quandl and applied a simple model to it. Today, we’ll port that work over to a Shiny app (by way of flexdashboard, of course) that allows a user to choose a commodity (oil, copper or gold), choose a frequency for the time series and choose how many periods ahead to forecast. The app will display the price history and the forecasted price.</description>
     </item>
     
-    <item>
-      <title>ok</title>
-      <link>/2017/06/23/ok/</link>
-      <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/06/23/ok/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>

@@ -13,6 +13,11 @@ tags:
 
 
 <p>In a previous post, we imported oil data from Quandl and applied a simple model to it. Today, we’ll port that work over to a Shiny app (by way of flexdashboard, of course) that allows a user to choose a commodity (oil, copper or gold), choose a frequency for the time series and choose how many periods ahead to forecast. The app will display the price history and the forecasted price. To see it in action, have a look <a href="http://colorado.rstudio.com:3939/commodities-quandl-flexdb/">here</a>.</p>
+<iframe src="https://jkr216.shinyapps.io/Sharpe-Ratio-Flex/?showcase=0" width="672" height="600px">
+</iframe>
+<p>Another test</p>
+<iframe src="https://jkr216.shinyapps.io/Sharpe-Ratio-Flex/" style="border: none; width: 700px; height: 500px">
+</iframe>
 <p>As with the previous Notebook, the main purpose of this post is to build a nice template where a more sophisticated or proprietary model could be used for forecasting, or indeed several different models could be included at the users option (meaning the different models could be selected as inputs). In other words, we are not as concerned with the modeling as we are with a format that is friendly to both an end user, or any future collaborator that might want to take this app and expand upon it.</p>
 <p>Without further adieu, let’s get to it!</p>
 <p>In the code chunk below, we are immediately faced with a few important decisions. The first of those is the format of the user input. At the extreme, we could use textInput and simply allow the user to enter the code for the desired data set. The benefit is that we would not limiting the user in any way - he or she could choose any dataset on Quandl; the cost would be that the user would need to know, or go to Quandl and look up, the code for any data set.</p>
